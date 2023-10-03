@@ -9,6 +9,7 @@ import {
 // Ressources
 import './ressources/css/index.css';
 import Kasa from './components/Kasa.jsx'
+import Error404 from './components/Error404.jsx'
 // Vitals
 import reportWebVitals from './reportWebVitals';
 
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Kasa />,
+    errorElement: <Error404 />,
   },
 ]);
 
