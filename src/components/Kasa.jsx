@@ -1,8 +1,14 @@
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+
 function Kasa() {
     return(
-        <div>Kasa</div>
+        <>
+        <Header/>
+        
 
-
+        <Footer/>
+        </>
     );
 }
 
