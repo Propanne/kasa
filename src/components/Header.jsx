@@ -2,10 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import KasaLogo from '../ressources/img/logo.png'
+import '../ressources/css/header.css';
 
 function Header() {
     return(
-        <Navbar className="bg-body-tertiary">
+        <Navbar className="">
             <Container>
                 <Navbar.Brand href="#home">
                     <img
@@ -18,8 +19,8 @@ function Header() {
                 </Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
                     <Nav >
-                        <Nav.Link href="/accueil">Accueil</Nav.Link>
-                        <Nav.Link href="/a-propos">A propos</Nav.Link>
+                        <Nav.Link className="nav-title" href="/accueil">Accueil</Nav.Link>
+                        <Nav.Link className="nav-title" href="/a-propos">A propos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
