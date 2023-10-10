@@ -1,15 +1,13 @@
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import '../ressources/css/kasa.css';
-import { Outlet } from 'react-router-dom';
-
+import Accueil from './Accueil.jsx';
 
 function Kasa() {
     return(
         <>
         <Header/>
-        <Outlet/>
-
+        <Accueil/>
         <Footer/>
         </>
     );

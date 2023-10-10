@@ -1,10 +1,12 @@
 // React 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 // Router
 import {
   createBrowserRouter,
   RouterProvider,
+  Navigate,
 } from "react-router-dom";
 // Ressources
 import './ressources/css/index.css';
@@ -17,14 +19,12 @@ import reportWebVitals from './reportWebVitals';
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Navigate to="/accueil"/>
+  },
+  {
+    path: "/accueil",
     element: <Kasa />,
     errorElement: <Error404 />,
-    children: [
-      {
-        path: "accueil",
-        element: <Accueil/>,
-      }
-    ],
   },
 ]);
 
