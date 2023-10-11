@@ -1,6 +1,5 @@
 #accueil-global-container{
     margin-top:20px;
-    height: 100%;
 }
 #accueil-img-container {
     height: 140px;
@@ -16,11 +15,34 @@
     color: white;
     margin: 0;
     font-size: 2rem;
+    line-height: 1;
 }
 @media screen and (max-width : 463px)
 {
     #accueil-img-container{
         text-align:left;
         font-size: 1.6rem;
+    }
+}
+
+#logementCard-container{
+    margin: 20px 0px;   
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #F6F6F6;
+}
+.logementCard {
+    padding: 20px;
+}
+@media screen and (max-width : 575px)
+{
+    #logementCard-container{
+        background-color: white;
+        justify-content: space-between;
+        padding:0px;
+    }
+    .logementCard {
+        padding-right: 0;
+        padding-left: 0;
     }
 }
