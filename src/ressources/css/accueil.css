@@ -34,6 +34,9 @@
     border-radius: 15px;
     background-color: #F6F6F6;
 }
+.logementCard-col-wrapper{
+    margin:0;
+}
 .logementCard {
     display: flex;
     border-radius: 15px;
@@ -41,6 +44,7 @@
     margin: 10px 0px;
     padding: 10px;
     background-size: cover;
+    background-position: center;
     color: white;
 }
 .logementCard-desc-container{
@@ -60,7 +64,9 @@
         padding:0px;
     }
     .logementCard {
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 10px;
+    }
+    .logementCard-col-wrapper{
+        padding:0;
     }
 }
