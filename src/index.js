@@ -12,7 +12,6 @@ import {
 import './ressources/css/index.css';
 import Kasa from './components/Kasa.jsx';
 import Error404 from './components/Error404.jsx';
-import Accueil from './components/Accueil.jsx';
 // Vitals
 import reportWebVitals from './reportWebVitals';
 

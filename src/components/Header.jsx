@@ -1,6 +1,8 @@
+// Composants
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+// Ressources
 import KasaLogo from '../ressources/img/logo.png'
 import '../ressources/css/header.css';
 

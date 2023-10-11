@@ -1,5 +1,7 @@
+// Composants
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+// Ressources
 import KasaBlackWhiteSLogo from '../ressources/img/black_white_logo.png';
 import "../ressources/css/footer.css";
 

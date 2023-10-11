@@ -1,0 +1,26 @@
+#accueil-global-container{
+    margin-top:20px;
+    height: 100%;
+}
+#accueil-img-container {
+    height: 140px;
+    margin: 0;
+    background-image: url("../img/falaise_mer.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+#accueil-img-desc{
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+}
+@media screen and (max-width : 463px)
+{
+    #accueil-img-container{
+        text-align:left;
+        font-size: 1.6rem;
+    }
+}
