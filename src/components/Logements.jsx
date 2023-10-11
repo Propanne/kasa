@@ -8,7 +8,7 @@ import LogementsJSON from '../ressources/logements.json';
 function Logements() {
     {console.log(LogementsJSON)}
     return LogementsJSON.map((e,i) => {
-            return(<Col className="logementCard" sm={6} md={4}><Link to="/logement/{e.id}"><LogementCard key={i} cover={e.cover} title={e.title}/></Link></Col>);
+            return(<Col sm={6} md={4}><Link to={"/logement?id="+e.id}><LogementCard key={i} cover={e.cover} title={e.title}/></Link></Col>);
         })
 }
 

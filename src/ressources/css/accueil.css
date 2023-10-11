@@ -1,6 +1,8 @@
 #accueil-global-container{
     margin-top:20px;
 }
+
+/* TOP IMAGE */
 #accueil-img-container {
     height: 140px;
     margin: 0;
@@ -25,6 +27,7 @@
     }
 }
 
+/* LOGEMENTS */
 #logementCard-container{
     margin: 20px 0px;   
     padding: 40px;
@@ -32,7 +35,19 @@
     background-color: #F6F6F6;
 }
 .logementCard {
-    padding: 20px;
+    display: flex;
+    border-radius: 15px;
+    height: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+    background-size: cover;
+    color: white;
+}
+.logementCard-desc-container{
+    display: flex;
+}
+.logementCard-desc-text{
+    align-self:flex-end;
 }
 @media screen and (max-width : 575px)
 {
