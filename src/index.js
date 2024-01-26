@@ -18,12 +18,12 @@ import reportWebVitals from './reportWebVitals';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="/accueil"/>
+    element: <Navigate to="/accueil"/>,
+    errorElement: <Error404 />,
   },
   {
     path: "/accueil",
     element: <Kasa />,
-    errorElement: <Error404 />,
   },
 ]);
 
