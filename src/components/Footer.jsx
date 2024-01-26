@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col';
 import KasaBlackWhiteSLogo from '../ressources/img/black_white_logo.png';
 import "../ressources/css/footer.css";
 
-function Footer() {
+function Footer(props) {
     return(
-        <footer>
+        <footer className={props.styleName ? props.styleName : ""}>
             <Row>
                 <Col xs={12}>
                     <img

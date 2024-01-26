@@ -6,9 +6,9 @@ import Nav from 'react-bootstrap/Nav';
 import KasaLogo from '../ressources/img/logo.png'
 import '../ressources/css/header.css';
 
-function Header() {
+function Header(props) {
     return(
-        <header>
+        <header className={props.styleName ? props.styleName : ""}>
             <Navbar className="">
                 <Container>
                     <Navbar.Brand href="/accueil">

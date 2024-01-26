@@ -1,3 +1,47 @@
-.error-root-container {
-    height: 100vh;
+body {
+    font-family: 'Montserrat';
+    color: #FF6060;
+}
+.absolute-container {
+    position: absolute;
+    width: 100%;
+}
+.absolute-container-top {
+    top: 0;
+}
+.absolute-container-bottom {
+    bottom: 0;
+}
+
+.error-message-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.error-message {
+    display: block;
+    margin:0;
+}
+#error-message-404 {
+    font-size: 15vw;
+    font-weight: 700;
+}
+#error-message-oups {
+    font-size: 3vh;
+    font-weight: 500;
+}
+#error-message-link {
+    margin-top: 100px;
+    font-size: 2vh;
+    font-weight: 700;
+}
+a {
+    color: #FF6060;
+}
+a:hover {
+    color:#FF6060;; 
+    text-decoration:underline; 
+    cursor:pointer;  
 }
