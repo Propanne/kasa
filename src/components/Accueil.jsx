@@ -11,7 +11,7 @@ function Accueil(){
         <Container id="accueil-global-container">
             {/* Banniere */}
             <Row id="accueil-img-container">
-                <Col id="accueil-img">
+                <Col>
                     <p id="accueil-img-desc">Chez vous, partout et ailleurs</p>
                 </Col>
             </Row>
